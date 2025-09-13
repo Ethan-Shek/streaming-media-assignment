@@ -5,8 +5,8 @@
     "eslint-plugin-import": "^2.32.0"
   },
   "scripts": {
-    "start": "node src/server.js",
-    "pretest": "eslint --fix ./src/**/*.js",
-    "test": "echo \"Test complete\""
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
   }
 }
