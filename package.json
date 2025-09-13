@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "node ./src/server.js",
-    "pretest": "eslint ./src/**/*.js --fix",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests complete\""
   }
 }
